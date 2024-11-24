@@ -53,7 +53,9 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    treefmt-nix.url = "github:numtide/treefmt-nix";
+    nvfetcher.url = "github:berberman/nvfetcher/0.7.0";
+
+    treefmt-nix.url = "github:numtide/treefmt-nix/main";
 
     # nxmatic 
 
