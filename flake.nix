@@ -23,7 +23,8 @@
     nixos-hardware.url = "github:nixos/nixos-hardware";
     #   nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-24.05-darwin";
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-24.11-darwin";
-    #   nixpkgs.url = "github:nxmatic/nixpkgs/develop";
+    nixpkgs-staging.url = "github:nixos/nixpkgs/staging";
+    nixpkgs-develop.url = "github:nxmatic/nixpkgs/develop";
 
     cachix = {
       url = "github:cachix/cachix";
