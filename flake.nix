@@ -31,6 +31,8 @@
       inputs.flake-compat.follows = "flake-compat";
     };
 
+    determinate.url = "https://flakehub.com/f/DeterminateSystems/determinate/0.1";
+
     darwin = {
       url = "github:lnl7/nix-darwin";
       inputs.nixpkgs.follows = "nixpkgs";
