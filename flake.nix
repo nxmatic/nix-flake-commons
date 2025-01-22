@@ -86,6 +86,12 @@
       flake = true;
       url = "github:nxmatic/nix-zen-browser/develop";
     };
+
+    ripvcs = {
+      flake = true;
+      url = "github:nxmatic/nix-ripvcs/develop";
+    };
+
   };
 
   outputs = { self, nixpkgs, flake-utils, home-manager, ... }:
