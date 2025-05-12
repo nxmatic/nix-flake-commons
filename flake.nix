@@ -56,8 +56,8 @@
     };
 
     flox = {
-      url = "github:flox/flox/v1.3.5";
-      inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:flox/flox/v1.4.1";
+#     inputs.nixpkgs.follows = "nixpkgs";
     };
 
     nvfetcher.url = "github:berberman/nvfetcher/0.7.0";
