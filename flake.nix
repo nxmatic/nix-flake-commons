@@ -45,6 +45,10 @@
       inputs.flake-compat.follows = "flake-compat";
     };
 
+    chromium-bin = {
+      url = "github:lrworth/chromium-bin-flake";
+    };
+
     lix-module = {
       url = "https://git.lix.systems/lix-project/nixos-module/archive/2.92.0-2.tar.gz";
       inputs.nixpkgs.follows = "nixpkgs";
