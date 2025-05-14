@@ -25,6 +25,11 @@
 #   nixpkgs-staging.url = "github:nixos/nixpkgs/staging";
 #   nixpkgs-develop.url = "github:nxmatic/nixpkgs/develop";
 
+    nixos-generators = {
+      url = "github:nix-community/nixos-generators";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     cachix = {
       url = "github:cachix/cachix";
       inputs.flake-compat.follows = "flake-compat";
