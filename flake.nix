@@ -65,6 +65,11 @@
 #     inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    incus-compose = {
+      url = "github:nxmatic/incus-compose/develop";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     nvfetcher.url = "github:berberman/nvfetcher/0.7.0";
 
     treefmt-nix.url = "github:numtide/treefmt-nix/main";
