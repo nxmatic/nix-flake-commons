@@ -25,6 +25,11 @@
 #   nixpkgs-staging.url = "github:nixos/nixpkgs/staging";
 #   nixpkgs-develop.url = "github:nxmatic/nixpkgs/develop";
 
+    nix-snapshotter = {
+      url = "github:pdtpartners/nix-snapshotter";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     nixos-generators = {
       url = "github:nix-community/nixos-generators";
       inputs.nixpkgs.follows = "nixpkgs";
