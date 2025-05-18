@@ -25,6 +25,11 @@
 #   nixpkgs-staging.url = "github:nixos/nixpkgs/staging";
 #   nixpkgs-develop.url = "github:nxmatic/nixpkgs/develop";
 
+    disko = {
+      url = "github:nix-community/disko/v1.11.0";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  
     nix-snapshotter = {
       url = "github:pdtpartners/nix-snapshotter";
       inputs.nixpkgs.follows = "nixpkgs";
