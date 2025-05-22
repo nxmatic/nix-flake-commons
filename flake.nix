@@ -21,7 +21,7 @@
 
     nix.url = "github:NixOS/nix/2.24.10";
     nixos-hardware.url = "github:nixos/nixos-hardware";
-    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-24.11-darwin";
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-25.05-darwin";
 #   nixpkgs-staging.url = "github:nixos/nixpkgs/staging";
 #   nixpkgs-develop.url = "github:nxmatic/nixpkgs/develop";
 
@@ -57,7 +57,7 @@
     determinate.url = "https://flakehub.com/f/DeterminateSystems/determinate/0.1";
 
     darwin = {
-      url = "github:lnl7/nix-darwin/nix-darwin-24.11";
+      url = "github:lnl7/nix-darwin/nix-darwin-25.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -70,7 +70,7 @@
     };
 
     home-manager = {
-      url = "github:nix-community/home-manager/release-24.11";
+      url = "github:nix-community/home-manager/release-25.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
