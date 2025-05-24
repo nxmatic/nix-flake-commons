@@ -25,6 +25,11 @@
 #   nixpkgs-staging.url = "github:nixos/nixpkgs/staging";
 #   nixpkgs-develop.url = "github:nxmatic/nixpkgs/develop";
 
+    impermanence = {
+      url = "github:nix-community/impermanence";
+#     inputs.nixpkgs.follows = "nixpkgs";
+    };
+      
     disko = {
       url = "github:nix-community/disko/v1.12.0";
       inputs.nixpkgs.follows = "nixpkgs";
