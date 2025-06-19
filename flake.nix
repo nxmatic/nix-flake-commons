@@ -93,6 +93,13 @@
 
     treefmt-nix.url = "github:numtide/treefmt-nix/main";
 
+    extra-container = {
+      flake = true;
+      url = "github:erikarvstedt/extra-container";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.flake-utils.follows = "flake-utils";
+    };
+
     # nxmatic 
 
     bird = {
