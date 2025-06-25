@@ -19,14 +19,14 @@
     flake-compat.url = "github:edolstra/flake-compat";
     flake-utils.url = "github:numtide/flake-utils";
 
-    nix.url = "github:NixOS/nix/2.24.10";
+    nix.url = "github:NixOS/nix/2.29.1";
     nixos-hardware.url = "github:nixos/nixos-hardware";
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-25.05-darwin";
 #   nixpkgs-staging.url = "github:nixos/nixpkgs/staging";
 #   nixpkgs-develop.url = "github:nxmatic/nixpkgs/develop";
 
     disko = {
-      url = "github:nix-community/disko/v1.11.0";
+      url = "github:nix-community/disko/v1.12.0";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   
@@ -50,11 +50,11 @@
     };
 
     lix-module = {
-      url = "https://git.lix.systems/lix-project/nixos-module/archive/2.92.0-2.tar.gz";
+      url = "https://git.lix.systems/lix-project/nixos-module/archive/2.93.0.tar.gz";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    determinate.url = "https://flakehub.com/f/DeterminateSystems/determinate/0.1";
+    determinate.url = "https://flakehub.com/f/DeterminateSystems/determinate/3.*";
 
     darwin = {
       url = "github:lnl7/nix-darwin/nix-darwin-25.05";
@@ -75,7 +75,7 @@
     };
 
     flox = {
-      url = "github:flox/flox/v1.4.1";
+      url = "github:flox/flox/v1.5.0";
 #     inputs.nixpkgs.follows = "nixpkgs";
     };
 
