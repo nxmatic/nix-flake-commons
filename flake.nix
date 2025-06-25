@@ -21,13 +21,16 @@
 
     nix.url = "github:NixOS/nix/2.29.1";
     nixos-hardware.url = "github:nixos/nixos-hardware";
-    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-25.05-darwin";
+    nixpkgs = {
+      url = "github:nixos/nixpkgs/nixpkgs-25.05-darwin";
+      inputs.nix.follows = "nix";
+    };
 #   nixpkgs-staging.url = "github:nixos/nixpkgs/staging";
 #   nixpkgs-develop.url = "github:nxmatic/nixpkgs/develop";
 
     impermanence = {
       url = "github:nix-community/impermanence";
-#     inputs.nixpkgs.follows = "nixpkgs";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
       
     disko = {
