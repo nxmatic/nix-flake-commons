@@ -25,12 +25,9 @@
       url = "github:nixos/nixpkgs/nixpkgs-25.05-darwin";
       inputs.nix.follows = "nix";
     };
-#   nixpkgs-staging.url = "github:nixos/nixpkgs/staging";
-#   nixpkgs-develop.url = "github:nxmatic/nixpkgs/develop";
 
     impermanence = {
       url = "github:nix-community/impermanence";
-      inputs.nixpkgs.follows = "nixpkgs";
     };
       
     disko = {
@@ -115,11 +112,6 @@
       url = "github:nxmatic/nix-maven-mvnd/develop";
     };
 
-    nix-darwin-home = {
-      flake = true;
-      url = "github:nxmatic/nix-darwin-home/work";
-    };
-      
     socket-vmnet = {
       flake = true;
       url = "github:nxmatic/nix-socket-vmnet/develop";
