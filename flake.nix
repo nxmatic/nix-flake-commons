@@ -22,8 +22,8 @@
     nix.url = "github:NixOS/nix/2.29.1";
     nixos-hardware.url = "github:nixos/nixos-hardware";
     nixpkgs = {
-      url = "github:nixos/nixpkgs/nixpkgs-25.05-darwin";
-      inputs.nix.follows = "nix";
+      url = "https://flakehub.com/f/NixOS/nixpkgs/0";
+      # inputs.nix.follows = "nix";
     };
 
     impermanence = {
@@ -59,7 +59,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    determinate.url = "https://flakehub.com/f/DeterminateSystems/determinate/3.*";
+    determinate.url = "https://flakehub.com/f/DeterminateSystems/determinate/0";
 
     darwin = {
       url = "github:lnl7/nix-darwin/nix-darwin-25.05";
