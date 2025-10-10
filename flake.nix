@@ -89,7 +89,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nvfetcher.url = "github:berberman/nvfetcher/0.7.0";
+    nvfetcher.url = "github:berberman/nvfetcher";
 
     treefmt-nix.url = "github:numtide/treefmt-nix/main";
 
