@@ -19,11 +19,10 @@
     flake-compat.url = "github:edolstra/flake-compat";
     flake-utils.url = "github:numtide/flake-utils";
 
-    nix.url = "github:NixOS/nix/2.29.1";
+    nix.url = "github:NixOS/nix/2.32.4";
     nixos-hardware.url = "github:nixos/nixos-hardware";
     nixpkgs = {
       url = "https://flakehub.com/f/NixOS/nixpkgs/0";
-      # inputs.nix.follows = "nix";
     };
 
     impermanence = {
@@ -62,7 +61,7 @@
     determinate.url = "https://flakehub.com/f/DeterminateSystems/determinate/0";
 
     darwin = {
-      url = "github:lnl7/nix-darwin/nix-darwin-25.05";
+      url = "github:nix-darwin/nix-darwin/nix-darwin-25.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
