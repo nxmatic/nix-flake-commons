@@ -210822,6 +210822,20 @@
         "type": "github"
       }
     },
+    "nixpkgs-unstable": {
+      "locked": {
+        "lastModified": 1777954456,
+        "narHash": "sha256-hGdgeU2Nk87RAuZyYjyDjFL6LK7dAZN5RE9+hrDTkDU=",
+        "rev": "549bd84d6279f9852cae6225e372cc67fb91a4c1",
+        "revCount": 992384,
+        "type": "tarball",
+        "url": "https://api.flakehub.com/f/pinned/NixOS/nixpkgs/0.1.992384%2Brev-549bd84d6279f9852cae6225e372cc67fb91a4c1/019df915-70b5-73a2-a5a4-63c620b45d9f/source.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://flakehub.com/f/NixOS/nixpkgs/0.1"
+      }
+    },
     "nixpkgs_10": {
       "locked": {
         "lastModified": 1770537093,
@@ -275497,6 +275511,7 @@
         "nixos-generators": "nixos-generators_2",
         "nixos-hardware": "nixos-hardware_39",
         "nixpkgs": "nixpkgs_591",
+        "nixpkgs-unstable": "nixpkgs-unstable",
         "nvfetcher": "nvfetcher_85",
         "ripvcs": "ripvcs_3",
         "socket-vmnet": "socket-vmnet_63",

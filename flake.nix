@@ -22,6 +22,7 @@
     nix.url = "github:NixOS/nix/2.32.4";
     nixos-hardware.url = "github:nixos/nixos-hardware";
     nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0";
+    nixpkgs-unstable.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1";
 
     impermanence.url = "github:nix-community/impermanence";
       
