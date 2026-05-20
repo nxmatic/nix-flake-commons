@@ -76,7 +76,7 @@
     };
 
     flox = {
-      url = "github:flox/flox/v1.5.0";
+      url = "github:flox/flox?branch=main";
 #     inputs.nixpkgs.follows = "nixpkgs";
     };
 
